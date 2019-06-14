@@ -13,7 +13,7 @@ Format: CSV
 
 # Proccess
 
-#Extract:
+#  Extract:
 
 word_id - unique id for urban dictionary api
 
@@ -28,7 +28,7 @@ author
 definition
 
 
-#Transform:
+#  Transform:
 
 Checked if there was any blank definitions and deleted. There were 188 blank definitions that I removed.
 
@@ -39,7 +39,7 @@ Removed duplicate words and meanings
 Authored most contributed
 
 
-#Load:
+#  Load:
 
 Load to Postgree database using SQLalchemy.
 
